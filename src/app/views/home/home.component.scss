@@ -1,0 +1,13 @@
+$back-color: #e6e6fd;
+
+.card-container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    background: $back-color;
+    height: 80vh;
+    overflow-y: scroll;
+}

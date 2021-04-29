@@ -1,0 +1,17 @@
+$back-color: #4d4dff;
+$label-color: #ffffff;
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $back-color;
+    width: 100%;
+    height: 3rem;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 2rem;
+}
+
+.label {
+    color: $label-color;
+}
